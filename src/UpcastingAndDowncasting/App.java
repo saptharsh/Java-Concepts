@@ -48,7 +48,8 @@ public class App {
 		
 		
 		// Now take a Downcasting scenario
-		Machine machine3 = new Camera();
+		//Machine machine3 = new Machine(); Gives java.lang.ClassCastException: 
+		Machine machine3 = new Camera(); // This is Up Casting Only, which is used in the scenario of Down Casting 
 		/*
 		 * Type mismatch: cannot convert from Machine to Camera {Java need confirmation, as down casting is not safe}
 		 */

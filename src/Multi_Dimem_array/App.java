@@ -26,12 +26,11 @@ public class App {
 		
 		System.out.println(texts[0][1]);//null
 		
-		texts[0][1] = "Hello Sappy";// Zero'th row and 1st column
-		texts[1][2] = "Hello ravi";// Zero'th row and 1st column
+		texts[0][1] = "Hello Sappy";// Zero'th row and 1st column {General Sense, 1st row, 2nd column}
+		texts[1][2] = "Hello ravi";// First row and 2nd column {General Sense, 2ns row, 3rd column}
 		System.out.println(texts[0][1]);
 		
-		//Not working
-		/*
+		
 		for(int row = 0; row<grid.length; row++){
 			for(int col = 0; col<grid[row].length; col++){
 				System.out.print(grid[row][col]+"\t");// space between the strings
@@ -39,7 +38,7 @@ public class App {
 			//space after each row
 			System.out.println();
 		}
-		*/
+		
 		
 		String[][] words = new String[2][];//the 2 rows => null, since columns are not set
 		System.out.println("rows: "+words[0]);

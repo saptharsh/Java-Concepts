@@ -53,7 +53,7 @@ public class App {
 		//10 characters wide => width
 		System.out.printf("Total cost %d; quantity is %10d\n", 120, 5);
 		
-		System.out.printf("Total cost %d; quantity is %-10d\n", 120, 5);
+		System.out.printf("Total cost %d; quantity is %-10d :\n", 120, 5);
 		
 		for(int i=0; i <4; i++) {
 			
@@ -69,7 +69,7 @@ public class App {
 		
 		
 		//Formatting floating point values 
-		System.out.printf("Total value: %f\n", 5.6);
+		System.out.printf("First Total value: %f\n", 5.6);
 		
 		System.out.printf("Total value: %.2f\n", 5.639475945);
 

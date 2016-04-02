@@ -24,7 +24,7 @@ class Camera extends Machine{
 	}
 	
 	public void start(){
-		System.out.println("Sapped");
+		System.out.println("Snapped");
 	}
 }
 

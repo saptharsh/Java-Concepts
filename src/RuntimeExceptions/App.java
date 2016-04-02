@@ -5,7 +5,7 @@ public class App {
 
 	public static void main(String[] args) {
 
-		// Checked Eceptions
+		// Checked Exceptions
 		/*
 		try {
 			Thread.sleep(111);
@@ -36,29 +36,29 @@ public class App {
 			System.out.println(texts[3]);
 		} catch (Exception e) {
 
-			System.out.println(e.toString());
+			System.out.println("First "+e.toString());
 		}
 		
 		// More Specific handling
 		/*
 		 * Less commonly used
 		 */
-		// 1
+		// Case 1
 		try {
 			
 			System.out.println(texts[3]);
 		} catch (RuntimeException e) {
 
-			System.out.println(e.toString());
+			System.out.println("Second "+e.toString());
 		}
 		
-		// 2
+		// Case 2
 		try {
 			
 			System.out.println(texts[3]);
 		} catch (ArrayIndexOutOfBoundsException e) {
 
-			System.out.println(e.toString());
+			System.out.println("Third "+e.toString());
 		}
 		
 	}

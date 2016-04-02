@@ -16,7 +16,7 @@ class Frog {
 		
 		//Very useful in debugging
 		//return String.format("%3d: %s", id, name);
-		return String.format("%-3d: %s", id, name);
+		return String.format("%-5d: %s", id, name);
 		
 		
 		/*

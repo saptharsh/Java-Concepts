@@ -1,0 +1,52 @@
+1. Introduction and Installation
+2. What Java is and how it works
+3. Getting a job 
+4. How to get the most out of this course
+5. A Hello World Program
+6. Using Variables
+7. Strings: Working with Text
+8. While Loops
+9. For Loops
+10. "If"
+11. Getting User Input
+12. Do... While
+13. Switch
+14. Arrays
+15. Arrays of Strings
+16. Multi-Dimensional Arrays
+17. Classes and Objects
+18. Methods
+19. Getters and Return Values
+20. Method Parameters
+21. Setters and "this"
+22. Constructors
+23. Static (and Final)
+24. String Builder and String Formattin
+25. The toString Method
+26. Inheritance
+27. Packages
+28. Interfaces
+29. Public, Private, Protected
+30. Polymorphism
+31. Encapsulation and the API docs
+32. Casting Numerical Values
+33. Up casting and Down casting
+34. Using Generics
+35. Generics and Wildcards
+36. Anonymous Classes
+37. Reading Files Using Scanner
+38. Handling Exceptions
+39. Multiple Exceptions
+40. Runtime Vs. Checked Exceptions
+41. Abstract Classes
+42. Reading Files with File Reader
+43. Try-With resources(Reading Files with File Reader)
+44. Creating and Writing Text Files
+45. Dot Equals Method
+46. Inner Classes
+47. Enum Types: Basic and Advanced Usage 
+48. Recursion
+49. Serialization
+50. Serializing Arrays
+51. Transient Keyword and more Serialization
+52. Passing by Value
